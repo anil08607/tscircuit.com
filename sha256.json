@@ -1,0 +1,15 @@
+{
+  "README.md": "2bfb1884e9fe0e491b026859a46e600616bc149e6e42acd26505e49e45a3e48d",
+  "after-browser.log": "764e56523a721132eac3349fb3ee9a3e1d66ba0e9868e0addccbd9f865bfd7b0",
+  "after-observations.json": "b566198eb5809188f3ceb785601c8fbec11f14368a8e1fa7f856537226e470b4",
+  "after-unit.log": "34ea491f63218ee3e480ec1ecc145be2d6501e07e33183673fc64d9e7deb3563",
+  "after.png": "c5994f679390d469011cbe42dbd0b3117e103e91bf2f37f0ccc34980e2d8bde4",
+  "after.webm": "be767bf36159f4675ee718c40966adc19ae89f3f7c69c407ae05adc35f5369f2",
+  "before-browser.log": "8e1ed028d812ad5ddf912f95f1a9d66902c94b3d639af7cc10c39a01129abdf9",
+  "before-observations.json": "c65cde07a11f22aebbef5696ea478d68f62a72f4b1ad19a9f659e501fbd0da77",
+  "before-unit.log": "900196501eb40fea80313be97c9b44d8000f8f9672674c879eec71f565487062",
+  "before.png": "d50d480deed0248ddb2207f70c136c661dec8f7fee6e7571d6c6de84846afd95",
+  "before.webm": "231c264895eb69006ee6bb13734cb35e2ffddd0ba3ddb379c3d74b9e75777125",
+  "kicad-retry-repro.spec.ts": "ba5dd849114a552ed2eb54c5a7a522c0f61a2952ec980682ad9afc0b5eda9201",
+  "my-test-board_kicad.zip": "68d1d62cd5cedee66c4adb7b2410adbd0f3e071c50cd99e22ac116dd8238a212"
+}

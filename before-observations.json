@@ -1,0 +1,45 @@
+{
+  "mode": "BEFORE",
+  "controlledFirstFailure": true,
+  "fixture": "playwright-tests/exampleCircuitJson.ts",
+  "converter": "circuit-json-to-kicad@0.0.241",
+  "steps": [
+    {
+      "message": "Click 1: request Download > KiCad > Project.",
+      "importerCalls": 0,
+      "downloads": 0,
+      "navigations": 1,
+      "errors": []
+    },
+    {
+      "message": "Click 1 failed as injected. The next resolver call is allowed to load.",
+      "importerCalls": 1,
+      "downloads": 0,
+      "navigations": 1,
+      "errors": [
+        "TEST: first converter import intentionally rejected"
+      ]
+    },
+    {
+      "message": "Click 2: retry on the SAME page; no reload or cache clearing.",
+      "importerCalls": 1,
+      "downloads": 0,
+      "navigations": 1,
+      "errors": [
+        "TEST: first converter import intentionally rejected"
+      ]
+    },
+    {
+      "message": "RESULT: second click reused the rejected promise. No new import; no ZIP.",
+      "importerCalls": 1,
+      "downloads": 0,
+      "navigations": 1,
+      "errors": [
+        "TEST: first converter import intentionally rejected",
+        "TEST: first converter import intentionally rejected"
+      ]
+    }
+  ],
+  "moduleResponses": [],
+  "zipFiles": []
+}

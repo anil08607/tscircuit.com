@@ -1,0 +1,6 @@
+
+Running 1 test using 1 worker
+
+  ✓  1 playwright-tests/kicad-retry-repro.spec.ts:26:1 › AFTER: retry KiCad download without reloading (28.8s)
+
+  1 passed (31.1s)
